@@ -36,7 +36,9 @@ def predict():
         dumy=np.array(dumy)
         output = model.predict(dumy)
         output_r=np.round(output,2)
-        return render_template('home.html', prediction_text='Predicted Price of your Car should be $ {}'.format(output_r))
+        output_list=arr.tolist()
+        inrs = output_list[0] * 73.25
+        return render_template('home.html', prediction_text='Predicted Price of your Car should be ₹ {}'.format(inrs))
  
 if __name__ == "__main__":
     app.run(debug=True)
