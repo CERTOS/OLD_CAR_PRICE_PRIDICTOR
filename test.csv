@@ -1,2 +1,2 @@
 Make,Type,Origin,DriveTrain,EngineSize,Cylinders,Horsepower,MPG_City,MPG_Highway,Weight,Wheelbase,Length
-Make_Ford,Type_SUV,Origin_ASIA,DriveTrain_Front,12,8,500,60,120,4959,120,200
+Make_Honda,Type_Sedan,Origin_Europe,DriveTrain_Front,15,4,300,10,30,4399,100,250
